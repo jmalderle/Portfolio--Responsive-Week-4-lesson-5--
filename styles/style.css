@@ -65,7 +65,9 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 60px;
 }
 
 .project-title {
@@ -92,6 +94,16 @@ p {
   padding: 15px 30px;
 }
 
+@media (max-width: 1000px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .container {
+    margin: 0;
+  }
+}
 
 /*
 font-family: 'Aboreto', cursive;

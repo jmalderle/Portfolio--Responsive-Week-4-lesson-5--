@@ -1,18 +1,22 @@
 :root {
   --primary-color: #f9ac38;
   --secondary-color: #b5b5ff;
+  --highlight-color: #efc7e1;
   --owner-name-font-family: "Aboreto", cursive;
   --intro-font-family: "Arya", sans-serif;
-  --default-font-family: "Baskerville", serif;
 }
 
 body {
-  font-family: var(--default-font-family);
+  font-family: var(--owner-name-font-family) !important;
 }
 h1 {
   color: #fff;
   font-family: var(--owner-name-font-family);
   font-size: 96px !important;
+}
+
+p {
+  line-height: 30px;
 }
 
 .hero {
@@ -34,7 +38,31 @@ h1 {
   border-radius: 4px;
   line-height: 27px;
   font-size: 18px;
-  font-family: var(--name-font-family);
+  font-family: var(--owner-name-font-family);
+  padding: 15px 30px;
+}
+
+.btn-branding.override:hover {
+  background: var(--highlight-color);
+  color: black;
+  border-radius: 4px;
+  line-height: 27px;
+  font-size: 18px;
+  font-family: var(--owner-name-font-family);
+  padding: 15px 30px;
+}
+
+.project-title {
+  font-family: var(--intro-font-family);
+}
+
+.btn-branding.of-projects {
+ border: 1px solid var(--highlight-color);
+  color: black;
+  border-radius: 4px;
+  line-height: 27px;
+  font-size: 16px;
+  font-family: var(--owner-name-font-family);
   padding: 15px 30px;
 }
 /*

@@ -82,6 +82,7 @@ p {
   font-size: 16px;
   font-family: var(--owner-name-font-family);
   padding: 15px 30px;
+  margin: 0;
 }
 
 .btn-branding.of-projects:hover {
@@ -94,7 +95,7 @@ p {
   padding: 15px 30px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .project-description {
     padding: 0;
     text-align: center;
@@ -102,6 +103,10 @@ p {
 
   .container {
     margin: 0;
+  }
+
+  .btn-branding.of-projects {
+    margin: 0 auto;
   }
 }
 

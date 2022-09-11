@@ -1,3 +1,26 @@
-body {
-  background: cornflowerblue;
+h1 {
+  color: #a6cea7;
+  font-family: "Arya", sans-serif;
+  font-size: 36px;
 }
+
+h2 {
+  font-family: "Aboreto", cursive;
+  font-size: 66px;
+  color: rgb(100, 149, 237, 0.4);
+}
+
+h3 {
+  color: #a6cea7;
+  font-family: "Arya", sans-serif;
+  font-size: 36px;
+}
+/*
+font-family: 'Aboreto', cursive;
+font-family: 'Arya', sans-serif;
+font-family: 'Baskervville', serif;
+font-family: 'Luxurious Script', cursive;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Noto Serif Display', serif;
+font-family: 'Yatra One', cursive;
+*/

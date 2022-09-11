@@ -25,8 +25,8 @@ p {
 
 .hero {
   background: var(--altv-color-2);
-  -webkit-transition: background-color 1s  ease-out;
-  -moz-transition: background-color 1s  ease-out;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
   -o-transition: background-color 1s ease-out;
   transition: background-color 1s ease-out;
   text-align: center;
@@ -64,6 +64,10 @@ p {
   padding: 15px 30px;
 }
 
+.project-description {
+  padding: 120px 60px;
+}
+
 .project-title {
   font-family: var(--intro-font-family);
 }
@@ -87,6 +91,7 @@ p {
   font-family: var(--owner-name-font-family);
   padding: 15px 30px;
 }
+
 
 /*
 font-family: 'Aboreto', cursive;

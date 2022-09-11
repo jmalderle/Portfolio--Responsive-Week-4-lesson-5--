@@ -1,29 +1,17 @@
 h1 {
-  color: rgb(100, 149, 237, 0.4);
+  color: #fff;
   font-family: "Aboreto", cursive;
-  font-size: 66px;
-}
-
-h2 {
-  font-family: "Aboreto", cursive;
-  font-family: "Arya", sans-serif;
-  color: #a6cea7;
-}
-
-h3 {
-  color: #a6cea7;
-  font-family: "Arya", sans-serif;
-}
-
-p {
-  margin: 30 auto;
-  padding: 0 50px;
-  font-family: "Baskervville", serif;
+  font-size: 88px;
 }
 
 .hero {
-  background: #ededff;
+  background: #f9ac38;
   text-align: center;
+}
+
+.intro-text {
+  font-family: "Arya", sans-serif;
+  font-size: 42px;
 }
 /*
 font-family: 'Aboreto', cursive;

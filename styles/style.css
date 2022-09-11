@@ -1,17 +1,41 @@
+:root {
+  --primary-color: #f9ac38;
+  --secondary-color: #b5b5ff;
+  --owner-name-font-family: "Aboreto", cursive;
+  --intro-font-family: "Arya", sans-serif;
+  --default-font-family: "Baskerville", serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
 h1 {
   color: #fff;
-  font-family: "Aboreto", cursive;
-  font-size: 88px;
+  font-family: var(--owner-name-font-family);
+  font-size: 96px !important;
 }
 
 .hero {
-  background: #f9ac38;
+  background: var(--primary-color);
   text-align: center;
+  padding: 160px 20px;
+  margin: 0;
 }
 
 .intro-text {
-  font-family: "Arya", sans-serif;
-  font-size: 42px;
+  font-family: var(--intro-font-family);
+  font-size: 36px;
+  margin: 0;
+}
+
+.btn-branding.override {
+  background: var(--secondary-color);
+  color: #fff;
+  border-radius: 4px;
+  line-height: 27px;
+  font-size: 18px;
+  font-family: var(--name-font-family);
+  padding: 15px 30px;
 }
 /*
 font-family: 'Aboreto', cursive;
